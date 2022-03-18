@@ -23,8 +23,7 @@ email: jadounath@protonmail.com
   #description: - #A place to be fascinated with knowledge and learn how to learn.
 baseurl: /
 url: https://the-bokya.github.io
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  the-bokya
 
 # Build settings
 theme: minima
