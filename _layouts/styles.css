@@ -7,6 +7,7 @@ body {
 }
 * {
     transition: 0.5s;
+    text-align: justify;
 }
 *:hover {
     cursor: default;
@@ -30,7 +31,6 @@ h1 {
 
 li:hover {
     color: rgb(100, 172, 231);
-    font-size: 150%;
 }
 ul a {
     text-decoration: none;
@@ -40,7 +40,8 @@ li:focus {
 }
 
 div.centre {
-    margin: 5% 15% 0% 15%;
+    margin: auto;
+    width: 75%;
     padding: 1rem 5rem 7rem 5rem;
     background-color: rgb(132, 255, 61);
     color: black;

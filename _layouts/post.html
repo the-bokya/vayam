@@ -13,10 +13,12 @@
     </h1>
 <div class="centre">
     {{content}}
+<p style="float:left; font-weight: 500;"> A Lesson By - {{page.author}}</p>
 </div>
     <h1>Other Lessons</h1>
     <ul>
-    {% for post in site.posts %}
+{% assign sorted = site.posts | sort: "order" %}
+    {% for post in sorted %}
     {% if post.url != page.url %}
     <li><a href="{{site.baseurl}}{{post.url}}">{{post.order}} - {{post.title}}</a></li>
     {% endif %}

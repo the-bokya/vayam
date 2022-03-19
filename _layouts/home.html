@@ -16,7 +16,7 @@
 <div class="centre">
     <h1>Lessons</h1>
     <ul>
-    {% assign sorted = site.posts | sort: 'order' %}
+    {% assign sorted = site.posts | sort: "order" %}
     {% for post in sorted %}
     <li><a href="{{site.baseurl}}{{post.url}}">{{post.order}} - {{post.title}}</a></li>
     {% endfor %}

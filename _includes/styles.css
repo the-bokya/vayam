@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Poppins:wght@600&display=swap');
 body {
     background-color: rgb(74, 223, 198);
     color: black;
-    font-family: "Hind";
+    font-family: "Roboto Slab", "Poppins", sans-serif;
     font-size: xx-large;
 }
 * {
     transition: 0.5s;
-}
-*:hover {
-    cursor: default;
+    text-align: justify;
+    hyphens: auto;
+    font-weight:300;
 }
 *::selection{
     background-color: beige;
@@ -26,12 +27,9 @@ img {
 h1 {
     width: 100%;
     text-align: center;
+    font-weight: 500;
 }
 
-li:hover {
-    color: rgb(100, 172, 231);
-    font-size: 150%;
-}
 ul a {
     text-decoration: none;
 }
