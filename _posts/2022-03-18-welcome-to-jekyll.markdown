@@ -16,7 +16,7 @@ The era of this present moment is *defined* by the internet and the HUGE (don't 
 
 The problem is ... there's *too much* information! So much information that our minds are being desensitised to learning new things. To be blunt we are losing the very thing that divided and defined us from the rest of the sentient fauna - curiosity.
 
-This article could easily be turned into how Instagram, YouTube, etc, are hijacking your minds, knocking them senseless with an unfathomable amount of information, and turning them into inventories or advertisement. But I won't do that.
+This article could easily be turned into a rant about how Instagram, YouTube, etc, are hijacking your minds, knocking them senseless with an unfathomable amount of information, and turning them into inventories or advertisement. But I won't do that.
 
 # The Solution
 
