@@ -1,3 +1,5 @@
+---
+---
 <html>
 <head>
 <style>
@@ -12,14 +14,11 @@
         {{page.title}}
     </h1>
 <div class="centre">
-    {{content}}
-</div>
-    <h1>Other Lessons</h1>
+    <h1>Lessons</h1>
     <ul>
-    {% for post in site.posts %}
-    {% if post.url != page.url %}
+    {% assign sorted = site.posts | sort: 'order' %}
+    {% for post in sorted %}
     <li><a href="{{site.baseurl}}{{post.url}}">{{post.order}} - {{post.title}}</a></li>
-    {% endif %}
     {% endfor %}
 </ul>
 </body>
