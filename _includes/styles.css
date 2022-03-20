@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Poppins:wght@600&display=swap');
 body {
-    background-color: rgb(74, 223, 198);
+    background-color: rgb(197, 75, 75);
     color: black;
     font-family: "Roboto Slab", "Poppins", sans-serif;
     font-size: xx-large;
@@ -13,7 +13,8 @@ body {
     font-weight:300;
 }
 *::selection{
-    background-color: beige;
+    background-color: rgb(255, 0, 128);
+    color: rgb(247, 247, 247);
 }
 img {
     display: block;
@@ -42,11 +43,14 @@ div.centre {
     padding: 1rem 5rem 7rem 5rem;
     background-color: rgb(132, 255, 61);
     color: black;
-    box-shadow: 0.5rem 0.5rem black;
+    box-shadow: 0 0 5px black;
     border-radius: 0.5rem;
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 10in){
     div.centre{
         margin: 0;
     }
+}
+.maths {
+    font-family: "Times New Roman", serif;
 }

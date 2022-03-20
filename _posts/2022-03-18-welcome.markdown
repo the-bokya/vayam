@@ -10,7 +10,7 @@ order: 1
 
 # Introduction
 
-सुस्वगतम्! Welcome to Vayam! We are a free (as in freedom) platform aiming to ignite the thirst for knowledge in minds of everyone.
+सुस्वागतम्! Welcome to Vayam! We are a free (as in freedom) platform aiming to ignite the thirst for knowledge in minds of everyone.
 
 The era of this present moment is *defined* by the internet and the HUGE (don't even try imagining how HUGE!) loads of information it brings along with it. We are no longer limited by the lack of information that all the previous generations of our race had faced.
 
